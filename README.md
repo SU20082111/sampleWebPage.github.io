@@ -10,70 +10,8 @@
 
 <link rel="stylesheet" href="Sample.css">
   <title>Suvojit's Sample</title>
-
-</head>
-<body>
-    <div class="container">
-      <div class="blank_header">
-        <div class="shadow"></div>
-        <div class="img_position">
-          <i style="font-size: 2rem;" class="far fa-dot-circle"></i>
-        </div>
-      </div>
-
-      <div class="body" style="display:flex;position: relative;"> 
-          <div class="side-Nav">
-            <ul class="list_Items">
-            
-            
-
-              <li class="item">
-                <i class="far fa-user"></i>
-                <p>Students</p>
-              </li>
-
-              <li class="item">
-                <i class="fas fa-list-ul"></i>
-                <p>Lesson Plan</p>
-              </li>
-
-              <li class="item">
-                <i class="fas fa-cog"></i>
-                <p>Settings</p>
-              </li>
-             
-            </ul>
-          </div>
-
-          
-          <div class="main">
-          
-            <section  class="videos">
-                <i class="fas fa-caret-left" style="font-size: 15px;">              
-                </i>
-                <h3>Videos</h3>           
-            </section>
-          
-            <form action="">
-              <input type="text" name="" id="" placeholder="Insert URL here">
-            </form>
-           
-            <div class="upload">
-              <h1 style="color: black;">upload</h1>
-            </div>
-
-            <h3 style="font-size: xx-small; color: black;margin-left: 393px;position: absolute;top: 123px;">or</h3>
-         </div>
-        </div>
-    </div>
-</body>
-</html>
-
-
-
-
-
-
+  <style>
+    
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
@@ -201,3 +139,68 @@ input {
   box-shadow: 2px 5px 50px rgba(216, 213, 213, 0.8);
  
 }
+  </style>
+
+</head>
+<body>
+    <div class="container">
+      <div class="blank_header">
+        <div class="shadow"></div>
+        <div class="img_position">
+          <i style="font-size: 2rem;" class="far fa-dot-circle"></i>
+        </div>
+      </div>
+
+      <div class="body" style="display:flex;position: relative;"> 
+          <div class="side-Nav">
+            <ul class="list_Items">
+            
+            
+
+              <li class="item">
+                <i class="far fa-user"></i>
+                <p>Students</p>
+              </li>
+
+              <li class="item">
+                <i class="fas fa-list-ul"></i>
+                <p>Lesson Plan</p>
+              </li>
+
+              <li class="item">
+                <i class="fas fa-cog"></i>
+                <p>Settings</p>
+              </li>
+             
+            </ul>
+          </div>
+
+          
+          <div class="main">
+          
+            <section  class="videos">
+                <i class="fas fa-caret-left" style="font-size: 15px;">              
+                </i>
+                <h3>Videos</h3>           
+            </section>
+          
+            <form action="">
+              <input type="text" name="" id="" placeholder="Insert URL here">
+            </form>
+           
+            <div class="upload">
+              <h1 style="color: black;">upload</h1>
+            </div>
+
+            <h3 style="font-size: xx-small; color: black;margin-left: 393px;position: absolute;top: 123px;">or</h3>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
